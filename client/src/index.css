@@ -55,7 +55,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)),
+  background: linear-gradient(rgba(10, 132, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="%232C3E50"/><path d="M0 50 Q 25 0, 50 50 T 100 50" stroke="%23E67E22" fill="none" stroke-width="0.5"/></svg>');
   background-size: cover;
   color: white;
@@ -127,12 +127,38 @@ h1 {
   transform: translateY(-5px);
 }
 
-.service-icon {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 1rem;
+.topService-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem;
 }
 
+.bodyService-card {
+  padding-left: 1rem;
+}
+
+.service-icon {
+  margin-bottom: 1rem;
+  padding-right: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.price {
+  font-style: italic;
+  color: #d35400;
+}
+
+.deliveryrev {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#rocket {
+  transform: rotate(-90deg);
+}
 h2 {
   font-family: "Playfair Display", serif;
   font-size: 2.5rem;

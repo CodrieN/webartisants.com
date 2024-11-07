@@ -34,60 +34,156 @@ const App = () => {
           <h2>Nos Services</h2>
           <div className="services-grid">
             <div className="service-card">
-              <svg
-                className="service-icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <path d="M9 12h6" />
-                <path d="M12 9v6" />
-              </svg>
-              <h3>Conception de Sites Web</h3>
-              <p>
-                Sites web sur-mesure qui reflètent votre qualité artisanale et
-                votre souci du détail.
-              </p>
+              <div>
+                <div className="topService-card">
+                  <h3 className="service-icon">
+                    <i class="fa-brands fa-bluesky"></i> Basic
+                  </h3>
+                  <p className="price">A partir de 250€</p>
+                </div>
+                <div>
+                  <p>
+                    Conception et création de la page d'acceuil pour votre
+                    business
+                  </p>
+                  <div className="deliveryrev">
+                    <div>
+                      <i class="fa-solid fa-truck"></i> livré en 3 jours
+                    </div>{" "}
+                    <div>
+                      <i class="fa-solid fa-arrows-spin"></i> 2 Revisions
+                    </div>
+                  </div>
+                  <div className="bodyService-card">
+                    <p>
+                      {" "}
+                      <i class="fa-solid fa-caret-right"></i> Site fonctionnel
+                    </p>
+                    <p>
+                      {" "}
+                      <i class="fa-solid fa-caret-right"></i> 1 page{" "}
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-caret-right"></i> Responsive design
+                    </p>{" "}
+                    <p>
+                      {" "}
+                      <i class="fa-solid fa-caret-right"></i> Content upload
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-caret-right"></i> 3
+                      plugins/extensions
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-lock"></i> E-commerce functionality
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-lock"></i> 15 products
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="service-card">
-              <svg
-                className="service-icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <circle cx="12" cy="12" r="10" />
-                <path d="M8 14s1.5 2 4 2 4-2 4-2" />
-                <line x1="9" y1="9" x2="9.01" y2="9" />
-                <line x1="15" y1="9" x2="15.01" y2="9" />
-              </svg>
-              <h3>Identité de Marque</h3>
-              <p>
-                Développez une présence digitale cohérente qui raconte votre
-                histoire unique.
-              </p>
+              <div>
+                <div>
+                  <div className="topService-card">
+                    <h3 className="service-icon">
+                      <i class="fa-solid fa-plane-up"></i> Standard
+                    </h3>
+                    <p className="price">A partir de 480€</p>
+                  </div>
+                </div>{" "}
+                <div>
+                  <p>
+                    Conception et création d'un site web complet de 5 pages pour
+                    votre business
+                  </p>
+                  <div className="deliveryrev">
+                    <div>
+                      <i class="fa-solid fa-truck"></i> livré en 5 jours
+                    </div>{" "}
+                    <div>
+                      <i class="fa-solid fa-arrows-spin"></i> 3 Revisions
+                    </div>
+                  </div>
+                  <div className="bodyService-card">
+                    <p>
+                      <i class="fa-solid fa-caret-right"></i> Functional website
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-caret-right"></i> 5 page{" "}
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-caret-right"></i> Responsive design
+                    </p>{" "}
+                    <p>
+                      <i class="fa-solid fa-caret-right"></i> Content upload
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-caret-right"></i> 5
+                      plugins/extensions
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-lock "></i> E-commerce functionality
+                    </p>
+                    <p>
+                      <i class="fa-solid fa-lock"></i> 15 products
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="service-card">
-              <svg
-                className="service-icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
-                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
-              </svg>
-              <h3>Solutions E-Commerce</h3>
-              <p>
-                Créez votre boutique en ligne pour exposer et vendre vos
-                produits artisanaux.
-              </p>
+              <div>
+                <div className="topService-card">
+                  <h3 className="service-icon">
+                    <i id="rocket" class="fa-solid fa-shuttle-space"></i>{" "}
+                    Premium
+                  </h3>
+                  <p className="price">A partir de 780€</p>
+                </div>
+              </div>
+              <div>
+                <p>
+                  Conception et création d'un site ecommerce pour votre business
+                </p>
+                <div className="deliveryrev">
+                  <div>
+                    <i class="fa-solid fa-truck"></i> livré en 10 jours
+                  </div>{" "}
+                  <div>
+                    <i class="fa-solid fa-arrows-spin"></i> 5 Revisions
+                  </div>
+                </div>
+                <div className="bodyService-card">
+                  <p>
+                    <i class="fa-solid fa-caret-right"></i> Functional website
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-caret-right"></i> 10 page{" "}
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-caret-right"></i> Responsive design
+                  </p>{" "}
+                  <p>
+                    <i class="fa-solid fa-caret-right"></i> Content upload
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-caret-right"></i> 10
+                    plugins/extensions
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-caret-right"></i> E-commerce
+                    functionality
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-caret-right"></i> 15 products
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -98,14 +194,31 @@ const App = () => {
           <h2>Projets Réalisés</h2>
           <div className="portfolio-grid">
             <div className="portfolio-item">
-              <div className="portfolio-overlay">
-                <h3>Atelier de Menuiserie</h3>
-              </div>
+              <a
+                href="http://perlinette-atelier.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="src/assets/pictures/perlinette.png"
+                  alt="Description of the image"
+                  width="width_in_pixels"
+                  height="height_in_pixels"
+                ></img>
+                <div className="portfolio-overlay"></div>
+                <h3>perlinette-atelier.com</h3>
+              </a>
             </div>
             <div className="portfolio-item">
-              <div className="portfolio-overlay">
-                <h3>Artiste Céramiste</h3>
-              </div>
+              <a
+                href="https://petitspasverslasante.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="portfolio-overlay">
+                  <h3> petitspasverslasante.com</h3>
+                </div>
+              </a>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-overlay">
@@ -145,23 +258,7 @@ const App = () => {
         </div>
       </section>
 
-      <footer>
-        <div className="container">
-          <p>
-            © 2023 Studio Web Artisanal. Création d'expériences digitales avec
-            soin.
-          </p>
-          <p>
-            Contactez-nous :{" "}
-            <a
-              href="https://artisanalweb.studio/contact"
-              style={{ color: "var(--accent)" }}
-            >
-              Commencez maintenant
-            </a>
-          </p>
-        </div>
-      </footer>
+      <div></div>
     </>
   );
 };
