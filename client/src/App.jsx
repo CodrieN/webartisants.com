@@ -5,7 +5,7 @@ const App = () => {
     <>
       <nav className="nav">
         <a href="https://artisanalweb.studio/" className="logo">
-          Studio Web Artisanal
+          CSWeb
         </a>
         <div className="nav-links">
           <a href="#services">Services</a>
@@ -18,7 +18,7 @@ const App = () => {
 
       <section className="hero">
         <div className="hero-content">
-          <h1>Création d'Expériences Digitales pour Artisans</h1>
+          <h1>Création d'Expériences Digitales pour professionnels</h1>
           <p className="tagline">
             Nous aidons les artisans et les petites entreprises locales à faire
             leurs premiers pas dans le monde digital
@@ -195,34 +195,72 @@ const App = () => {
           <div className="portfolio-grid">
             <div className="portfolio-item">
               <a
-                href="http://perlinette-atelier.com/"
+                href="https://sunstudiosite.wordpress.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="src/assets/pictures/perlinette.png"
+                  src="/src/assets/pictures/Capture d’écran 2024-11-07 153025.jpg"
                   alt="Description of the image"
-                  width="width_in_pixels"
-                  height="height_in_pixels"
+                  width="420"
                 ></img>
-                <div className="portfolio-overlay"></div>
-                <h3>perlinette-atelier.com</h3>
+                <div className="portfolio-overlay">
+                  <h3 className="portfolioH3-overlay">Sun Studios</h3>
+                </div>
               </a>
             </div>
             <div className="portfolio-item">
               <a
-                href="https://petitspasverslasante.com/"
+                href="https://petitspasverslasante.com//"
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                <img
+                  src="/src/assets/pictures/Capture d’écran 2024-11-07 152625.jpg"
+                  alt="Description of the image"
+                  width="410"
+                ></img>
                 <div className="portfolio-overlay">
-                  <h3> petitspasverslasante.com</h3>
+                  <h3 className="portfolioH3-overlay">PetitsPasVersLaSanté</h3>
+                </div>
+              </a>
+            </div>{" "}
+            <div className="portfolio-item">
+              <a
+                href="https://perlinette-atelier.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/src/assets/pictures/Capture d’écran 2024-11-07 142525.jpg"
+                  alt="Description of the image"
+                  width="400"
+                ></img>
+                <div className="portfolio-overlay">
+                  <h3 className="portfolioH3-overlay">Perlinette Atelier</h3>
+                </div>
+              </a>
+            </div>
+            <div className="portfolio-item">
+              <a
+                href="https://gite-haut-verdon.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/src/assets/pictures/Capture d’écran 2024-11-07 151349.jpg"
+                  alt="Description of the image"
+                  width="420"
+                  height="height_in_pixels"
+                ></img>
+                <div className="portfolio-overlay">
+                  <h3 className="portfolioH3-overlay">L’Alto Verdon</h3>
                 </div>
               </a>
             </div>
             <div className="portfolio-item">
               <div className="portfolio-overlay">
-                <h3>Boulangerie Artisanale</h3>
+                <h3 className="portfolioH3-overlay">Coline Marguin</h3>
               </div>
             </div>
           </div>
