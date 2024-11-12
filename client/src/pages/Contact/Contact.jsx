@@ -26,18 +26,6 @@ const Contact = () => {
 
   return (
     <div>
-      <nav className="nav">
-        <a href="https://artisanalweb.studio/" className="logo">
-          Artisanal Web Studio
-        </a>
-        <div className="nav-links">
-          <a href="https://artisanalweb.studio/#services">Services</a>
-          <a href="https://artisanalweb.studio/#portfolio">Portfolio</a>
-          <a href="https://artisanalweb.studio/#testimonials">Testimonials</a>
-          <a href="https://artisanalweb.studio/contact">Contact</a>
-        </div>
-      </nav>
-
       <div className="contact-container">
         <div className="contact-info">
           <h1>Let's Create Something Beautiful Together</h1>
@@ -132,12 +120,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-
-      <footer>
-        <p>
-          © 2023 Artisanal Web Studio. Crafting digital experiences with care.
-        </p>
-      </footer>
     </div>
   );
 };
