@@ -10,12 +10,7 @@ function Footer() {
         </p>
         <p>
           Contact us:{" "}
-          <a
-            href="https://artisanalweb.studio/contact"
-            style="color: var(--accent);"
-          >
-            Get Started
-          </a>
+          <a href="https://artisanalweb.studio/contact">Get Started</a>
         </p>
       </div>
     </footer>
